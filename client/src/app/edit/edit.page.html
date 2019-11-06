@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Update</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-input [(ngModel)]="usuario.nomper">
+  </ion-input>
+  <ion-input [(ngModel)]="usuario.apeper">
+  </ion-input>
+  <ion-button expand="block" (click)="update()">Update</ion-button>
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Create</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+ <ion-input placeholder="Nombre" [(ngModel)]="usuario.nomper">
+  </ion-input>
+  <ion-input placeholder="Apellido" [(ngModel)]="usuario.apeper">
+  </ion-input>
+  <ion-button expand="block" (click)="create()">Create</ion-button>
+
+</ion-content>
